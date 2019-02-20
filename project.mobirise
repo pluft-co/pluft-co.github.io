@@ -44,7 +44,7 @@
     "uniqCompNum": 18,
     "versionPublish": "4.8.10",
     "screenshot": "screenshot.png",
-    "favicon": "",
+    "favicon": "@PROJECT_PATH@/assets/images/logo-alpha-1024x1024-128x128.png",
     "noImageResize": ""
   },
   "pages": {
