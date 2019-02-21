@@ -2263,6 +2263,24 @@ body {
 .cid-qTkzRZLJNu .dropdown-item:hover {
   color: #c1c1c1 !important;
 }
+.cid-riJbDXkjxF {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background-color: #ffffff;
+}
+.cid-riJbDXkjxF .mbr-text,
+.cid-riJbDXkjxF blockquote {
+  color: #767676;
+}
+.cid-riJbEShhjE {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background-color: #ffffff;
+}
+.cid-riJbEShhjE .mbr-text,
+.cid-riJbEShhjE blockquote {
+  color: #767676;
+}
 .cid-qTkzRZLJNu .navbar {
   padding: .5rem 0;
   background: #ffffff;
