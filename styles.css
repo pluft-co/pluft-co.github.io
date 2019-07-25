@@ -356,9 +356,17 @@ body {
 
   #section3, #section4, #section5 {
     background-size: cover;
-    background-position: center;
     margin-bottom: -250px;
   }
+
+  #section4, #section5 {
+    background-position: right;
+  }
+
+  #section3 {
+    background-position: left;
+  }
+  
 
   #footer {
     height: 400px;
