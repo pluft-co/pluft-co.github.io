@@ -332,8 +332,6 @@ body {
   margin-bottom: -100px;
 }
 
-
-
 @media screen and (max-device-width: 500px) {
   #section1 {
     background-size: cover;
@@ -393,5 +391,46 @@ body {
 
   .knowMoreButton {
     font-size: 45px;
+  }
+}
+
+@media screen and (max-device-width: 800px) and (min-device-width: 501px) {
+
+  #navbar ul {
+    width: 50%;
+  }
+
+  #section2 {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  #section3, #section4, #section5 {
+    background-size: cover;
+    background-position: center;
+    margin-bottom: -150px;
+  }
+
+  .textContainer p {
+    font-size: 30px;
+    font-weight: 200;
+    width: 70%;
+  }
+
+  .textContainer h5 {
+    font-size: 30px;
+  }
+
+  .textContainer h2 {
+    font-size: 60px;
+  }
+
+  .textContainer button {
+    font-size: 25px;
+  }
+
+  #socials {
+    width: 15%;
+    font-size: 35px;
   }
 }
