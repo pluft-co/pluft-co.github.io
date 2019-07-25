@@ -331,3 +331,40 @@ body {
 .margin {
   margin-bottom: -100px;
 }
+
+
+
+@media screen and (max-device-width: 500px) {
+  #section1 {
+    background-size: cover;
+    background-position: center;
+  }
+
+  .container {
+    align-self: center;
+  }
+
+  #section2 {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  #section3, #section4, #section5 {
+    background-size: cover;
+    background-position: center;
+    margin-bottom: -250px;
+  }
+
+  #footer {
+    height: 400px;
+  }
+
+  #footer h2 {
+    font-size: 50px;
+  }
+
+  #socials {
+    width: 30%;
+    font-size: 60px;
+  }
+}
