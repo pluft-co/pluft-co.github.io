@@ -179,6 +179,7 @@ body {
 #section2 {
   height: 600px;
   display: flex;
+  margin-bottom: 40px;
 }
 
 #secondText {
@@ -208,7 +209,7 @@ body {
 }
 
 #appScreens {
-  padding: 20px;
+  padding: 0px 20px;
 }
 
 #section3 {
