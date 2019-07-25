@@ -363,8 +363,35 @@ body {
     font-size: 50px;
   }
 
+  .textContainer {
+    align-items: center;
+    text-align: center;
+  }
+
+  .textContainer p {
+    font-size: 50px;
+    font-weight: 200;
+    width: 70%;
+  }
+
+  .textContainer h5 {
+    font-size: 50px;
+  }
+
+  .textContainer h2 {
+    font-size: 100px;
+  }
+
+  .textContainer button {
+    font-size: 44px;
+  }
+
   #socials {
     width: 30%;
     font-size: 60px;
+  }
+
+  .knowMoreButton {
+    font-size: 45px;
   }
 }
