@@ -180,6 +180,8 @@ body {
   height: 600px;
   display: flex;
   margin-bottom: 40px;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 #secondText {
@@ -338,6 +340,11 @@ body {
     background-position: center;
   }
 
+  #navbar ul {
+    width: 70%;
+    font-size: 28px;
+  }
+
   .container {
     align-self: center;
   }
@@ -433,4 +440,47 @@ body {
     width: 15%;
     font-size: 35px;
   }
+}
+
+@media screen and (max-device-width: 1024px) and (min-device-width: 801px) {
+
+  #navbar ul {
+    width: 50%;
+  }
+
+  #section2 {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  #section3, #section4, #section5 {
+    background-size: cover;
+    background-position: center;
+    margin-bottom: -150px;
+  }
+
+  .textContainer p {
+    font-size: 25px;
+    font-weight: 200;
+    width: 70%;
+  }
+
+  .textContainer h5 {
+    font-size: 25px;
+  }
+
+  .textContainer h2 {
+    font-size: 50px;
+  }
+
+  .textContainer button {
+    font-size: 15px;
+  }
+
+  #socials {
+    width: 15%;
+    font-size: 35px;
+  }
+
+
 }
