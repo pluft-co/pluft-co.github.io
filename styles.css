@@ -255,6 +255,12 @@ body {
   font-size: 30px;
 }
 
+
+#footer h5 {
+  font-weight: 100;
+  font-size: 20px
+}
+
 .changeFont {
   font-weight: 100;
   font-family: 'Montserrat'
@@ -374,6 +380,10 @@ body {
 
   #footer h2 {
     font-size: 50px;
+  }
+
+  #footer h5 {
+    font-size: 30px
   }
 
   .textContainer {
