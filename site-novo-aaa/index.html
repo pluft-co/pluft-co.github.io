@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Pluft Benefícios - O seu benefício na palma da sua mão</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <script src="https://kit.fontawesome.com/825b393123.js"></script>
+  </head>
+  <body>
+    <div id="navbar">
+        <img id="logo" src="assets/logo.png">
+        <ul>
+            <li><a onclick="scrollOne()">Sou Empresa</a></li>
+            <li><a onclick="scrollTwo()">Sou Comerciante</a></li>
+            <li><a onclick="scrollThree()">Sou Funcionário</a></li>
+        </ul>
+    </div>
+    <div id="section1">
+        <div class="container">
+            <div class="primaryText">
+                <h2>O benefício que vale mais!</h2>
+                <h5>Tenha <b>controle</b> sobre o seu gasto e <b>cashback</b> para seus funcionários</h5>
+            </div>
+            <div class="primaryButton">
+                <button onclick="knowMore()" class="knowMoreButton">Saiba Mais</button>
+            </div>
+        </div>
+    </div>
+    <div id="section2">
+        <div id="secondText">
+            <h2>Quem somos?</h2>
+            <p>Somos uma startup de benefícios que inconformada com o mercado atual. Estamos aqui para trazer um benefício que vale mais para seus funcionários e é mais justo com os comerciantes.</p>    
+        </div>
+        <div id="appScreens">
+            <img src="./assets/appgroup.png">
+        </div>
+    </div>
+    <div id="section3" class="margin">
+        <div class="textContainer">
+            <h2>Empresa</h2>
+            <h5>Pensamos sempre em você.</h5>
+            <p>Te ajudamos com a gestão dos seus benefícios e fornecemos um benefício que vale mais, facilitando o seu dia a dia e atraindo talentos.</p>
+            <button class="typeform-share button" href="https://gabrielmoraes2.typeform.com/to/qNYbDG" data-mode="drawer_left" data-submit-close-delay="5" target="_blank">Entre em contato</button> <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm_share", b="https://embed.typeform.com/"; if(!gi.call(d,id)){ js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script>
+        </div>
+    </div>
+    <div id="section4" class="margin">
+        <div class="textContainer">
+            <h2>Comerciante</h2>
+            <h5>Parceria com benefício de verdade!</h5>
+            <p>Com facilidade, transparência e taxas mais justas, estamos aqui para te ajudar a impulsionar o seu negócio e fidelizar os seus clientes.</p>
+            <button class="typeform-share button" href="https://gabrielmoraes2.typeform.com/to/XL9SUl" data-mode="drawer_left" data-submit-close-delay="5" target="_blank">Vamos conversar</button> <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm_share", b="https://embed.typeform.com/"; if(!gi.call(d,id)){ js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script>
+        </div>
+    </div>
+    <div id="section5">
+        <div class="textContainer">
+            <h2>Usuário</h2>
+            <h5>Tenha controle do que é seu.</h5>
+            <p>Escolha como distribuir seus benefícios, tenha mais controle e flexibilidade e aqui seu benefício vale mais com o seu sistema de <b>cashback</b></p>
+            <button class="typeform-share button" href="https://gabrielmoraes2.typeform.com/to/R7tqW7" data-mode="drawer_left" data-submit-close-delay="5" target="_blank">Indique sua empresa</button> <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm_share", b="https://embed.typeform.com/"; if(!gi.call(d,id)){ js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script>
+        </div>
+    </div>
+    <div id="footer">
+        <div id="logoFooter">
+            <h2>Pluft Co. <span class='changeFont'>2019</span></h2>
+            <h5>32.701.889/0001-20</h2>
+        </div>
+        <div id="socials">
+            <i class="fab fa-linkedin-in"></i>
+            <i class="fab fa-facebook-f"></i>
+            <i class="fab fa-instagram"></i>
+        </div>
+    </div>
+  </body>
+  <script>
+
+      function scrollOne() {
+        var element = document.getElementById("section3");
+        element.scrollIntoView({behavior: "smooth", block: "end", inline: "nearest"});
+      }
+
+      function scrollTwo() {
+        var element = document.getElementById("section4");
+        element.scrollIntoView({behavior: "smooth", block: "end", inline: "nearest"});
+      }
+
+      function scrollThree() {
+        var element = document.getElementById("section5");
+        element.scrollIntoView({behavior: "smooth", block: "end", inline: "nearest"});
+      }
+
+      function knowMore() {
+        var element = document.getElementById("section2");
+        element.scrollIntoView({behavior: "smooth", block: "end", inline: "nearest"});
+      }
+      
+
+
+
+    </script>
+</html>
